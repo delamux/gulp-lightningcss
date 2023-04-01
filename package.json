@@ -1,0 +1,30 @@
+{
+  "name": "gulp-lightningcss",
+  "version": "1.0.0",
+  "description": "lighningcss for gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lighningcss",
+    "gulp",
+    "css",
+    "transpiler",
+    "rust"
+  ],
+  "author": "delAmux",
+  "license": "MIT",
+  "peerDependencies": {
+    "gulp": "~3.9.0 || ^4.0.0",
+    "lightningcss": "^1.19.0"
+  },
+  "dependencies": {
+    "plugin-error": "^1.0.1",
+    "replace-ext": "^2.0.0",
+    "vinyl-sourcemaps-apply": "^0.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7"
+  }
+}
